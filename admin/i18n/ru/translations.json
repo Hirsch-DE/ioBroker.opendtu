@@ -1,10 +1,11 @@
 {
-    "Configure your OpenDTU WebUi connection": "Настройте соединение OpenDTU WebUi",
-    "Scheme": "Схема",
-    "WebUi Address": "Адрес веб-интерфейса",
-    "WebUi Port": "Порт веб-интерфейса",
-    "WebUi Password": "Пароль веб-интерфейса",
-    "Other configurations": "Другие конфигурации",
-    "Protect self-set names from being overwritten by the adapter.": "Защитите самостоятельно установленные имена от перезаписи адаптером.",
-    "Set the states to 0 if the inverter is not available.": "Установите состояния на 0, если инвертор недоступен."
+    "Config": "Настройка подключения OpenDTU WebUI",
+    "Scheme": "Безопасность",
+    "WebAddress": "IP-адрес",
+    "WebPort": "Порт",
+    "WebPoll": "обновить через x секунд",
+    "WebPassword": "Пароль веб-интерфейса",
+    "OtherConfig": "Другие конфигурации",
+    "ProtNames": "Защита самоопределяемых имен от перезаписи адаптером",
+    "StatesToZero": "Установка состояний на 0, если инвертор недоступен"
 }

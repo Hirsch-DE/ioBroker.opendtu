@@ -1,8 +1,34 @@
 {
   "common": {
     "name": "opendtu",
-    "version": "1.0.1",
+    "version": "2.1.0",
     "news": {
+      "2.1.0": {
+        "en": "update dependencies\nsupport small screens\nupdate translations\nupdate object names\nadd variable polling intervall [1-59s]",
+        "de": "aktualisierung der abhängigkeiten\nkleine bildschirme unterstützen\nübersetzungen aktualisieren\nänderung der objektnamen\nvariable abfrageintervall hinzufügen [1-59s]",
+        "ru": "обновление зависимостей\nподдержка небольших экранов\nобновление переводов\nобновления имен объектов\nдобавить переменный интервал опроса [1-59]",
+        "pt": "dependências\nsuporte telas pequenas\ntraduções de atualização\natualizar nomes de objetos\nadicionar intervalo de votação variável [1-59s]",
+        "nl": "afhankelijkheden bijwerken\nkleine schermen ondersteunen\nvertalingen bijwerken\nobjectnamen bijwerken\nvariabele polling intervall [1-59s] toevoegen",
+        "fr": "mettre à jour les dépendances\nsoutenir les petits écrans\nmettre à jour les traductions\nmettre à jour les noms des objets\najouter intervalle de scrutin variablel [1-59s]",
+        "it": "aggiornamento dipendenze\nsupporto piccoli schermi\naggiornare le traduzioni\naggiornare i nomi degli oggetti\naggiungere intervallo di polling variabile [1-59s]",
+        "es": "dependencias de actualización\nsoporte pantallas pequeñas\ntraducción actualizada\nactualizar nombres de objetos\nañadir intervalo de votación variable [1-59s]",
+        "pl": "aktualizacji zależności\nwsparcie dla małych ekranów\naktualizacja tłumaczeń\naktualizacja nazw obiektów\ndodać zmienną polling intervall [1-59s]",
+        "uk": "оновлення залежності\nпідтримка невеликих екранів\nоновлення перекладів\nоновлення назв об'єктів\nдодати змінний інтервал опитування [1-59s]",
+        "zh-cn": "更新依赖关系\n支持小屏幕\n更新翻译\n更新对象名称\n添加可变投票间隔l [1-59s]"
+      },
+      "2.0.0": {
+        "en": "changes for new websocket structure ([#129](https://github.com/o0shojo0o/ioBroker.opendtu/issues/129))\n`Efficiency`, `YieldTotal`, `YieldDay` and `DC Power` moved from the AC section to the INV (old data points must be removed manually)",
+        "de": "änderungen für neue Websocket-Struktur ([#129](https://github.com/o0shojo0o/ioBroker.opendtu/issues/129))\n`Efficiency`, `YieldTotal`, `YieldDay` und `DC Power` von der AC-Sektion zum INV bewegt (alte Datenpunkte müssen manuell entfernt werden)",
+        "ru": "изменения для новой структуры веб-сокета ([#129] (https://github.com/o0shojo0o/ioBroker.opendtu/issues/129)\n`Efficiency \" , `YieldTotal \" , `YieldDay \" и `DC Power \" перенесены из раздела AC в ИНВ (старые точки данных должны быть удалены вручную)",
+        "pt": "alterações para nova estrutura websocket ([#129](https://github.com/o0shojo0o/ioBroker.opendtu/issues/129))\n`Eficiência`, `YieldTotal`, `YieldDay` e `DC Power` movido da seção AC para a INV (velhos pontos de dados devem ser removidos manualmente)",
+        "nl": "wijzigingen voor nieuwe websocketstructuur ([#129](https://github.com/o0shojo0o/ioBroker.opendtu/issues/129))\n`Efficiency`, `YieldTotal`, `YieldDay` and `DC Power` moved from the AC section to the INV (old data points must be removed manually)",
+        "fr": "changements pour la nouvelle structure de la poche web ([#129](https://github.com/o0shojo0o/ioBroker.opendtu/issues/129))\n`Efficacité`, `YieldTotal`, `YieldDay` et `DC Power` déplacés de la section AC à l'INV (les anciens points de données doivent être supprimés manuellement)",
+        "it": "modifiche per la nuova struttura websocket ([#129](https://github.com/o0shojo0o/ioBroker.opendtu/issues/129))\n`Efficienza`, `YieldTotal`, `YieldDay` e `DC Power` spostati dalla sezione AC al INV (i vecchi punti di dati devono essere rimossi manualmente)",
+        "es": "(https://github.com/o0shojo0o/ioBroker.opendtu/issues/129))\n\" Eficiencia \" , `YieldTotal ' , `YieldDay ' y `DC Power ' se trasladaron de la sección AC al INV (los antiguos puntos de datos deben eliminarse manualmente)",
+        "pl": "zmiany w strukturze nowego gniazda sieciowego ([# 129] (https: / / github.com / o0shojo0o / ioBroker.opendtu / issues / 129)\n\"Efektywność\", \"YieldTotal\", \"YieldDay\" i \"DC Power\" przeniesione z sekcji AC do INV (stare punkty danych muszą być usunięte ręcznie)",
+        "uk": "[#129](https://github.com/o0shojo0o/ioBroker.opendtu/languages/129))\n`Efficiency`, `YieldTotal`, `YieldDay` і `DC Power` перемістили з розділу змінного струму до INV (старі дані повинні бути видалені вручну)",
+        "zh-cn": "新的websocket结构的变化([#129](https://github.com/o0shojo0o/ioBroker.opendtu/issues/129))\n\" 效率 \" 、 \" YieldTotal \" 、 \" YieldDay \" 和 \" DC Power \" 从AC区移至INV区(旧数据点必须手工删除)"
+      },
       "1.0.1": {
         "en": "fixed `power_control.current_limit_absolute\" has value \"-1\" less than min \"0\"`",
         "de": "`power_control.current_limit_absolute\" hat wert -1 kleiner als min 0",
@@ -67,32 +93,6 @@
         "pl": "regulacja kontroli mocy (pol.)",
         "uk": "фіксувати контроль потужності (power_off)",
         "zh-cn": "fix 权力控制(力量/力量)"
-      },
-      "0.1.5": {
-        "en": "code optimizations",
-        "de": "codeoptimierungen",
-        "ru": "оптимизация кода",
-        "pt": "otimizações de código",
-        "nl": "vertaling:",
-        "fr": "optimisation des codes",
-        "it": "ottimizzazioni del codice",
-        "es": "optimizaciones de código",
-        "pl": "optymalizacja kodu",
-        "uk": "оптимізація коду",
-        "zh-cn": "准则的优化"
-      },
-      "0.1.4": {
-        "en": "fix power control `on`, `off`, `restart`\nsupport for password protected liveview\nother small fixes",
-        "de": "festlegen der leistungssteuerung an, aus, neustart\nunterstützung für passwortgeschützte liveview\nandere kleine fixes",
-        "ru": "зафиксируйте контроль мощности, выключите, перезапустите\nподдержка паролей защищено liveview\nдругие небольшие исправления",
-        "pt": "corrigir o controle de energia em, off, reiniciar\nsuporte para visualização ao vivo protegida por senha\noutras pequenas correções",
-        "nl": "controle aan, uit, herstart\nquality over quantity (qoq) releases vertaling:\nandere kleine fixes",
-        "fr": "régler le contrôle de puissance sur, off, restart\nsupport pour mot de passe protégé\nautres petites corrections",
-        "it": "fissare il controllo di potenza su, off, riavviare\nsupporto per password protetta liveview\naltre piccole correzioni",
-        "es": "fijar el control de potencia en, apagado, reiniciar\nsoporte para contraseña protegida\notras pequeñas correcciones",
-        "pl": "po naprawie kontroli mocy, odwraca się, restartuje\nwsparcie dla hasła chronionego liveview\ninne drobne rozwiązanie",
-        "uk": "фіксувати контроль потужності, вимкнено, перезавантажити\nпідтримка захищеного пароля\nінші маленькі кріплення",
-        "zh-cn": "f 剩余电力控制\n支持受保护的密码\n其他小型配件"
       }
     },
     "titleLang": {
@@ -128,15 +128,18 @@
       "OpenDTU",
       "Solar"
     ],
-    "license": "MIT",
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
     "platform": "Javascript/Node.js",
-    "main": "main.js",
     "icon": "opendtu.png",
     "enabled": true,
     "extIcon": "https://raw.githubusercontent.com/o0shojo0o/ioBroker.opendtu/main/admin/opendtu.png",
     "readme": "https://github.com/o0shojo0o/ioBroker.opendtu/blob/main/README.md",
     "loglevel": "info",
     "mode": "daemon",
+    "tier": 2,
     "type": "energy",
     "compact": true,
     "connectionType": "local",
@@ -164,7 +167,7 @@
     },
     "dependencies": [
       {
-        "js-controller": ">=3.3.22"
+        "js-controller": ">=5.0.19"
       }
     ],
     "globalDependencies": [
@@ -177,6 +180,7 @@
     "webUIScheme": "http",
     "webUIServer": "",
     "webUIPort": 80,
+    "webUIPoll": 30,
     "userName": "admin",
     "password": "",
     "protectNames": false,

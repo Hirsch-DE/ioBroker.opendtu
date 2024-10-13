@@ -4,11 +4,13 @@
 	"items": {
 		"webUIHeader": {
 			"type": "header",
-			"text": "Configure your OpenDTU WebUi connection",
+			"text": "Config",
 			"size": 2,
-			"newLine": true
+			"xs": 12,
+			"sm": 12
 		},
 		"webUIScheme": {
+			"newLine": true,
 			"type": "select",
 			"label": "Scheme",
 			"options": [
@@ -21,39 +23,70 @@
 					"value": "https"
 				}
 			],
-			"newLine": true
+			"xs": 12,
+			"sm": 2,
+			"md": 2,
+			"lg": 1
 		},
 		"webUIServer": {
 			"type": "text",
-			"label": "WebUi Address",
-			"newLine": false
+			"label": "WebAddress",
+			"xs": 12,
+			"sm": 8,
+			"md": 4,
+			"lg": 3
 		},
 		"webUIPort": {
 			"type": "number",
-			"label": "WebUi Port",
-			"newLine": false
+			"label": "WebPort",
+			"min": 1,
+			"max": 65535,
+			"xs": 12,
+			"sm": 2,
+			"md": 2,
+			"lg": 1
+		},
+		"webUIPoll": {
+			"type": "number",
+			"label": "WebPoll",
+			"min": 1,
+			"max": 59,
+			"xs": 12,
+			"sm": 4,
+			"md": 2,
+			"lg": 2
 		},
 		"password": {
+			"newLine": true,
 			"type": "password",
-			"label": "WebUi Password",
-			"sm": 2,
-			"newLine": true
+			"label": "WebPassword",
+			"xs": 12,
+			"sm": 6,
+			"md": 6,
+			"lg": 4
+			
 		},
 		"otherHeader": {
+			"newLine": true,
 			"type": "header",
-			"text": "Other configurations",
+			"text": "OtherConfig",
 			"size": 2,
-			"newLine": true
+			"xs": 12,
+			"sm": 12			
 		},
 		"protectNames": {
+			"newLine": true,
 			"type": "checkbox",
-			"label": "Protect self-set names from being overwritten by the adapter.",
-			"newLine": true
+			"label": "ProtNames",
+			"xs": 12,
+			"sm": 12			
 		},
 		"useInvOfflineStatesToZero": {
+			"newLine": true,
 			"type": "checkbox",
-			"label": "Set the states to 0 if the inverter is not accessible.",
-			"newLine": true
+			"label": "StatesToZero",
+			"xs": 12,
+			"sm": 12
 		}
 	}
 }
